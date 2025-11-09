@@ -1,0 +1,217 @@
+.body{
+        background-color: gray;
+    }
+
+    .container{
+        position: fixed;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .clone{
+        width: 250px;
+        height: 93%;
+        position:top;
+        margin-bottom: 20px; 
+        border-radius: 30px 30px 20px 20px;
+        box-shadow: 10px 20px 35px 15px gray;
+    }
+
+    .allupper{
+        height: 95.90%;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        overflow-y:scroll;
+    }
+
+    .instanameicon{
+        height: 30px;
+        width: 250px;
+        background-color: white;
+        z-index: 1;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        display: flex;
+        position:fixed;
+    }
+
+    h4
+    { 
+        margin-left: 12px;
+        margin-bottom:0px;
+        margin-top: 4px;
+    }
+
+    .stories{
+        height: 80px;
+        margin-left: 0px;
+        margin-top: 35px;
+        display: flex;
+        overflow-x:scroll;
+        overflow-y: hidden;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .eachstory{
+        min-width: 55px;
+        height: 110px;
+        margin-left: 5px;
+        display:flex;
+        flex-wrap: wrap;
+        overflow: hidden ;
+    }
+
+    .circle{
+        margin-top: 5px;
+        height: 50px;
+        min-width: 50px;
+        border: 2px solid white;
+        background: linear-gradient(50deg, 
+                                #feda75,   /* yellow */
+                                #fa7e1e,   /* orange */
+                                #d62976,   /* pink */
+                                #962fbf,   /* purple */
+                                #4f5bd5    /* blue */
+                                ) border-box;
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .storyimage{
+        width: 90%;
+        height: 90%;
+        padding: 1.2px;
+        background-color: white;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .storytitle
+    {
+        width: 60px;
+        height: 14px;
+        font-size: 10px;
+        margin-top: -22px;
+        text-align: center;
+        display: inline;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .middle{
+        border-top: 1px solid black;
+        margin-bottom: 10px;
+        overflow: hidden;
+
+    }
+
+    .middletop{
+        margin-top: 2px;
+        height: 7%;
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .middletopcircle{
+        height: 18px;
+        width: 18px;
+        margin-top: 2px;
+        margin-left: 13px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background: #000;
+        overflow: hidden;
+    }
+
+    .middlemiddle{
+        margin-top: 2px;
+        display: flex;
+        position: relative;
+    }
+
+    .postedimage{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .taggedpeoplelogo{
+        width: 18px;
+        height: 18px; 
+        background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6));
+        border-radius: 50%;
+        position: absolute;
+        bottom: 15px;
+        left: 4%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+
+
+    .middlebottom{
+        height: 82px;
+    }
+
+    .middlebottomicons{
+        margin-top: 2px;
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+
+    .middlebottomtext{
+        height: 27px;
+        display: flex;
+    }
+
+    .middlebottomtextimages
+    {
+        height: 14px;
+        width: 14px;
+        margin-top: 3px;
+        margin-left: 5px;
+        border-radius: 50%;
+        border: 2px solid white;
+        overflow: hidden;
+    }
+
+    .middlebottomdescription{
+        height: 33px;
+        width: 95%;
+        margin:-6px 0px 30px 4px;
+    }
+
+    .description{
+        margin: 0px 0px 1px 3px;
+        font-size :12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .clonebottom{
+        height: 7%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+    }
+    
